@@ -4,7 +4,10 @@
   "description": "API desenvolvida em Node.js para trabalhar resultados de palpites em partidas de futebol e afins. ⚽",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -17,5 +20,19 @@
   "bugs": {
     "url": "https://github.com/FDaviCR/chutometro-api/issues"
   },
-  "homepage": "https://github.com/FDaviCR/chutometro-api#readme"
+  "homepage": "https://github.com/FDaviCR/chutometro-api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.15.3",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4"
+  }
 }
