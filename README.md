@@ -1,14 +1,29 @@
-API desenvolvida em Node.js para trabalhar resultados de partidas de futebol. Além de palpites que vão rankear os jogadores que criaram os palpites nos jogos. ⚽
+API desenvolvida em Node.js para trabalhar resultados de palpites em partidas de futebol e afins. ⚽
 
-Os jogadores podem ou não palpitar nos jogos dos times que torcem, essa regra deve ser definida na criação do campeonato! 🤞
+Modos de Palpites:
 
-v1. Campeonatos de pontos corridos. ⚽
+    ⚽ - Vencedores dos Jogos
+    🏟️ - Resultados de Jogos
+    🏆 - Colocações finais do Campeonato
+    🥅 - Artilheiros do Campeonato
 
-🥇 - Ranking de palpiteiros 🥈 - Resultados de jogos 🥉 - Tabelas dos campeonatos
+Modos de Jogo:
+
+    🤍 - Time do Coração: Palpite nos resultados, exceto do seu time(Para os mais superticiosos)
+    🥊 - Vale tudo: Palpites em todos os jogos
+
+Visibilidade:
+
+    🥇 - Ranking de palpiteiros 
+    🥈 - Resultados de jogos 
+    🥉 - Tabelas dos campeonatos
+
+
+
 
 -- PARA REFINAR --
 
-tipo, poderia ter níveis de jogo, no nosso caso a gente só palpita os vencedores, mas dá pra fazer um sistema que palpitar o resultado cravado valeria até mais pontos, enfim, daria pra elaborar um esquema de pontuação interessante
+tipo, poderia ter níveis de jogo, no nosso caso a gente só , mas dá pra fazer um sistema que palpitar o resultado cravado valeria até mais pontos, enfim, daria pra elaborar um esquema de pontuação interessante
 
 e no começo do campeonato as pessoas poderiam palpitar a colocação de cada time antes de começar, os artilheiros e tambem extrair uma tabela de classificação do campeonato de acordo com os palpites jogo a jogo, pra vê como ficaria no final
 
