@@ -1,9 +1,9 @@
 const express = require('express');
-//const userRoutes = require('./routes/user.routes');
+const usuarioRoutes = require('./routes/usuario.routes');
 
 const app = express();
 
 app.use(express.json());
-//app.use(userRoutes);
+app.use(usuarioRoutes);
 
 module.exports = app;
